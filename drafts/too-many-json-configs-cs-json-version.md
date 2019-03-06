@@ -1,6 +1,10 @@
 # Too many JSON configs
 
-Every application will have a configuration file that also defines the app's version. This is extremely convenient when you are trying to determine which version of this app or package to use. For most NodeJS apps, this is the `package.json` config file, if the app owner chooses to use this file as the source of truth. 
+![cs-json-version an npm package](docs/img/too-many-json-config-cs-json-version.png "cs-json-version an npm package")
+
+Every application will have a configuration file that also defines the app's version. This is extremely convenient when you are trying to determine which version of this app or package to use. For most NodeJS apps, this is the `package.json` config file, if the app owner chooses to use this file as the source of truth. But what happens when an application has multiple JSON configuration files that specifies the version of the application? 
+
+### How do you keep them all in sync?.
 
 A couple of years ago I was working on a personal full-stack solution that included many configuration files for both Front-end and back-end. These files included the `package.json`, `bower.json`, a php plugin for `wordPress` JSON and since JSON configs were very common at the time, I had my own JSON to define configs for `PHP` + custom app options. Concurrently, at work I had a similar issue where the main project had a library of tools. Each tool had it's own version however, they were all released together and all needed a to reflect the same deployment version in configs, due to dependencies & support. 
 
