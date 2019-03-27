@@ -7,4 +7,6 @@ Still I didn't know how or where to start even though I have several wordPress b
 I'll share code sippets and some of my recent pet projects hope it helps someone and probably talk about industry nuisances, So here we go:
 
 - [Too many JSON configs](https://github.com/breakbottle/blog/issues/1)
+- [You should protect your app secrets](https://github.com/breakbottle/blog/issues/2)
+
 
