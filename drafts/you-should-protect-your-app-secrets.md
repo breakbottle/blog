@@ -1,6 +1,6 @@
 # You should protect your app secrets!
 
-In every application, there are configurations that usually contain some type of secret(s) that needs to be protected. Every team should be using source control to keep track of the current version of their code. I've noticed there are teams that store these secrets in code that is saved into source control for anyone to view. One of the most popular public source control is Git->GitHub, which allows developers to save their projects publicly for anyone to view. One could imagine how insecure an app is when you see a connection string or worse yet, an API key for a popular resource just waiting for someone to grab up. Shouldn't we protect this confidential information?
+Security is a concern for applications that use secret(s) to integrate with other services. Source Control, the tool used to keep track of code, will reveal these secrets(s) if posted publicly for anyone to view. One of the most popular public Source Control tools is Git->GitHub, which allows developers teams to use its public platform. Although private options are available for GitHub, many projects uses the public version. One could then imagine how insecure an app is when you see a connection string or worse yet, an API key for a popular resource just waiting for someone to grab up. Shouldn't we protect this confidential information?
 
 ## So how do you keep your secrets safe?
 
